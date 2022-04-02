@@ -1,0 +1,82 @@
+:root {
+  --background-color: #f68989;
+  --button-color: #c65d7b;
+}
+
+body {
+  margin: auto;
+  max-width: 1000px;
+}
+
+img.main-picture {
+  object-fit: cover;
+  border-radius: 10px !important;
+  transform: rotate(-4deg);
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Noto Serif Display", serif;
+  font-size: 60px;
+  margin: 0px;
+}
+h2 {
+  margin: 0px;
+  font-size: 48px;
+}
+h3 {
+  font-size: 25px;
+  margin: 0px;
+  opacity: 0.4;
+}
+
+.about-paragraph p {
+  background-color: var(--background-color);
+  border-radius: 5px;
+  flex: 1;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin: 30px 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-paragraph {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraph p {
+  margin: 10px;
+}
+
+.homepage-links a {
+  color: #f6e7d8;
+  background: var(--button-color);
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.skills-img {
+  width: 75px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.flyfishing-img {
+  width: 400px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}

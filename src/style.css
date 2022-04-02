@@ -67,9 +67,12 @@ a {
 }
 
 .profile-pic {
-  width: 245px;
+  display: block;
   height: auto;
+  margin: auto;
+  width: 245px;
 }
+
 .skills-img {
   width: 75px;
   height: auto;

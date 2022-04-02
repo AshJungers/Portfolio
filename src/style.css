@@ -61,6 +61,10 @@ a {
   margin: 10px;
 }
 
+.about-link {
+  font-weight: bold;
+}
+
 .profile-pic {
   display: block;
   height: auto;

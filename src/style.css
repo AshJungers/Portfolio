@@ -1,6 +1,8 @@
 :root {
-  --background-color: #f68989;
-  --button-color: #c65d7b;
+  --background-color: #6f4c5b;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --secondary-color: #9e7777;
 }
 
 body {
@@ -19,30 +21,42 @@ h3 {
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
   font-size: 60px;
   margin: 0px;
 }
 
 h2 {
-  margin: 0px;
+  color: var(--secondary-color);
+  font-family: var(--heading-font-family);
   font-size: 48px;
+  margin: 0px;
+  text-align: center;
+}
+
+h2.intro {
+  text-align: start;
 }
 
 h3 {
+  color: var(--secondary-color);
   font-size: 25px;
   margin: 0px;
-  opacity: 0.5;
-  font-family: "Poppins", sans-serif;
+  opacity: 0.9;
+  font-family: var(--default-font-family);
+}
+
+h3.project-title {
+  color: black;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font-size: 16px;
 }
 
 .hero {
-  background-color: #9e7777;
+  background-color: var(--background-color);
   padding: 200px 0px;
   text-align: center;
 }
@@ -52,7 +66,7 @@ p {
   border-radius: 5px;
   flex: 1;
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   margin: 30px 30px;
   padding: 20px;
   text-align: center;
@@ -90,6 +104,7 @@ a {
   margin: auto;
   width: 245px;
 }
+
 .skills {
   margin-bottom: 50px;
 }
@@ -108,6 +123,7 @@ a {
   display: flex;
   align-items: center;
 }
+
 .weatherapp-img {
   width: 400px;
   height: auto;

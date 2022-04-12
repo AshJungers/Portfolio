@@ -150,6 +150,9 @@ a {
 }
 
 @media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+  }
   h3.project-title {
     text-align: center;
   }
@@ -162,5 +165,16 @@ a {
 
   .signature {
     font-size: 35px;
+  }
+
+  #heading-section-projects,
+  #heading-section-skills,
+  .heading-section-contact {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .project-title {
+    font-size: 20px;
   }
 }

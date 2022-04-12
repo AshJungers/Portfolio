@@ -1,8 +1,8 @@
 :root {
-  --background-color: #6f4c5b;
+  --background-color: #9e7777;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --secondary-color: #9e7777;
+  --secondary-color: #6f4c5b;
 }
 
 body {
@@ -65,6 +65,9 @@ a {
   background-color: var(--background-color);
   padding: 300px 0px;
   text-align: center;
+}
+
+.hero h3 {
 }
 
 .top-container {
@@ -143,4 +146,20 @@ a {
   height: auto;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 576px) {
+  h3.project-title {
+    text-align: center;
+  }
+
+  p,
+  h2.intro,
+  .signature {
+    text-align: center;
+  }
+
+  .signature {
+    font-size: 35px;
+  }
 }

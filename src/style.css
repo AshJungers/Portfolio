@@ -54,6 +54,7 @@ h3.project-title {
 p {
   font-family: var(--default-font-family);
   font-size: 16px;
+  line-height: 30px;
 }
 
 a {
@@ -115,6 +116,10 @@ a {
   margin: auto;
   display: flex;
   align-items: center;
+}
+
+.project-title {
+  padding: 25px 0;
 }
 
 .flyfishing-img {

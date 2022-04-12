@@ -48,6 +48,7 @@ h3 {
 
 h3.project-title {
   color: black;
+  text-align: start;
 }
 
 p {
@@ -57,7 +58,7 @@ p {
 
 .hero {
   background-color: var(--background-color);
-  padding: 200px 0px;
+  padding: 300px 0px;
   text-align: center;
 }
 

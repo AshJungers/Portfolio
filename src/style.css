@@ -153,6 +153,7 @@ a {
   h1 {
     font-size: 50px;
   }
+
   h3.project-title {
     text-align: center;
   }
@@ -162,7 +163,14 @@ a {
   .signature {
     text-align: center;
   }
+  .hero {
+    padding: 150px 0;
+  }
 
+  .profile-pic {
+    height: auto;
+    width: 145px;
+  }
   .signature {
     font-size: 35px;
   }

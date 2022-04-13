@@ -92,6 +92,7 @@ a {
 .about-paragraph {
   display: flex;
   margin: 30px 0;
+  text-align: center;
 }
 
 .about-link {
@@ -171,6 +172,7 @@ a {
     height: auto;
     width: 145px;
   }
+
   .signature {
     font-size: 35px;
   }

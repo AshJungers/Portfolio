@@ -168,6 +168,34 @@ a {
   display: flex;
   align-items: center;
 }
+.bottom-container {
+  background-color: var(--background-color);
+  padding: 20px 0 10px;
+  text-align: center;
+}
+
+.heading-section-contact {
+  color: #deba9d;
+}
+
+.email-icon,
+.cellphone-icon,
+.linkedin-icon,
+.github-icon {
+  color: #deba9d;
+}
+
+.email-icon:hover,
+.cellphone-icon:hover,
+.linkedin-icon:hover,
+.github-icon:hover {
+  color: #6f4c5b;
+}
+
+.linkedin-icon {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 @media (max-width: 576px) {
   h1 {

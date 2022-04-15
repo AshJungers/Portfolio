@@ -52,7 +52,7 @@ h3.project-title {
 }
 
 h3.about-me-header {
-  margin-bottom: 50px;
+  margin: 40px auto;
 }
 
 p {
@@ -84,7 +84,7 @@ a {
   border-radius: 5px;
   font-size: 18px;
   font-family: var(--default-font-family);
-  margin: 20px 400px;
+
   padding: 20px;
   text-align: center;
 }
@@ -95,6 +95,7 @@ a {
 
 .copyright {
   text-align: center;
+  margin-bottom: 0;
 }
 
 .signature {
@@ -178,6 +179,7 @@ a {
 
 .bottom-container {
   background-color: var(--background-color);
+  margin-bottom: 0;
   padding: 20px 0 10px;
   text-align: center;
 }

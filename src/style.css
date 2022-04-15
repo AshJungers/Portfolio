@@ -89,6 +89,7 @@ a {
 }
 
 .hobbies-container {
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -116,12 +117,13 @@ a {
   color: #9e7777;
 }
 
-.footer-link {
-  color: #deba9d;
+.hobbies-link {
+  color: #6f4c5b;
+  font-weight: bolder;
 }
 
-.footer-link:hover {
-  color: #deba9d;
+.hobbies-link:hover {
+  color: #6f4c5b;
   text-decoration: underline;
 }
 
@@ -220,6 +222,11 @@ a {
   .signature {
     text-align: center;
   }
+
+  h3.about-me-header {
+    font-size: 20px;
+  }
+
   .hero {
     padding: 150px 0;
   }
@@ -242,5 +249,10 @@ a {
 
   .project-title {
     font-size: 20px;
+  }
+
+  .about-me-content,
+  .hobbies-container {
+    font-size: 14px;
   }
 }

@@ -71,6 +71,17 @@ a {
   max-width: 1500px;
 }
 
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link,
+.navbar-brand {
+  font-family: var(--default-font-family);
+}
+
 .hero {
   background-color: var(--background-color);
   padding: 200px 0px;

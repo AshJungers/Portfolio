@@ -172,7 +172,7 @@ a {
 }
 
 .weatherapp-img {
-  width: 400px;
+  width: 450px;
   height: auto;
   display: flex;
   align-items: center;
@@ -260,6 +260,7 @@ a {
   .hobbies-container {
     font-size: 14px;
   }
+
   .flyfishing-img,
   .weatherapp-img {
     display: block;

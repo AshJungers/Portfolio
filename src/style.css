@@ -260,4 +260,9 @@ a {
   .hobbies-container {
     font-size: 14px;
   }
+  .flyfishing-img,
+  .weatherapp-img {
+    display: block;
+    margin: 0 auto;
+  }
 }

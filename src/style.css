@@ -247,6 +247,11 @@ a {
     font-weight: bold;
   }
 
+  #heading-projects-container {
+    font-size: 35px;
+    font-weight: bold;
+  }
+
   .project-title {
     font-size: 20px;
   }

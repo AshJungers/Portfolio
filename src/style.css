@@ -71,15 +71,24 @@ a {
   max-width: 1500px;
 }
 
-.navbar {
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
+nav {
+  padding: 15px 0;
 }
 
-.nav-link,
-.navbar-brand {
-  font-family: var(--default-font-family);
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 75px;
+  margin: 0;
+}
+
+.logo {
+  max-width: 75px;
 }
 
 .hero {

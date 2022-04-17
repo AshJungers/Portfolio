@@ -100,11 +100,6 @@ nav li.active a {
   font-weight: bold;
 }
 
-nav li.active a {
-  color: var(--background-color);
-  font-weight: bold;
-}
-
 .logo {
   max-width: 75px;
 }
@@ -253,6 +248,10 @@ nav li.active a {
 }
 
 @media (max-width: 576px) {
+  nav a {
+    font-size: 12px;
+  }
+
   h1 {
     font-size: 50px;
   }

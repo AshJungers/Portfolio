@@ -227,10 +227,6 @@ footer .social-links a {
   transition: all 100ms ease-in-out;
 }
 
-.get-in-touch {
-  color: var(--secondary-color);
-}
-
 .contact-container {
   background-color: var(--background-color);
   padding: 30px;
@@ -249,7 +245,7 @@ footer .social-links a {
 
 .linkedin-icon,
 .github-icon {
-  color: var(--primary-color);
+  color: var(--background-color);
   font-size: 35px;
   margin: 0 20px;
 }

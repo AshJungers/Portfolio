@@ -2,7 +2,8 @@
   --background-color: #9e7777;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --secondary-color: #6f4c5b;
+  --primary-color: #6f4c5b;
+  --secondary-color: #deba9d;
 }
 
 body {
@@ -27,7 +28,7 @@ h1 {
 }
 
 h2 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-family: var(--heading-font-family);
   font-size: 48px;
   margin: 0px;
@@ -39,7 +40,7 @@ h2.intro {
 }
 
 h3 {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 25px;
   margin: 0px;
   opacity: 0.9;
@@ -90,7 +91,7 @@ nav li {
 }
 
 nav a {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   transition: all 100ms ease-in-out;
 }
 
@@ -111,7 +112,7 @@ nav li.active a {
 }
 
 .hero h3 {
-  color: #deba9d;
+  color: var(--secondary-color);
 }
 
 .top-container {
@@ -148,7 +149,7 @@ nav li.active a {
 }
 
 .about-link {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-weight: bold;
 }
 
@@ -157,7 +158,7 @@ nav li.active a {
 }
 
 .hobbies-link {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-weight: bolder;
 }
 
@@ -203,8 +204,8 @@ nav li.active a {
 
 .btn-branding {
   border-radius: 4px;
-  border: 1px solid var(--secondary-color);
-  color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -217,34 +218,45 @@ nav li.active a {
   align-items: center;
 }
 
+footer {
+  margin: 60px 0;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  transition: all 100ms ease-in-out;
+}
+
+.get-in-touch {
+  color: var(--secondary-color);
+}
+
 .contact-container {
   background-color: var(--background-color);
-  margin-bottom: 0;
-  padding: 20px 0 10px;
+  padding: 30px;
+}
+
+.email-link {
+  color: var(--secondary-color);
+  font-size: 20px;
   text-align: center;
 }
 
-.heading-section-contact {
-  color: #deba9d;
+.email-link:hover {
+  color: var(--secondary-color);
+  font-weight: bold;
 }
 
-.email-icon,
-.cellphone-icon,
 .linkedin-icon,
 .github-icon {
-  color: #deba9d;
+  color: var(--primary-color);
+  font-size: 35px;
+  margin: 0 20px;
 }
 
-.email-icon:hover,
-.cellphone-icon:hover,
 .linkedin-icon:hover,
 .github-icon:hover {
-  color: #6f4c5b;
-}
-
-.linkedin-icon {
-  padding-left: 30px;
-  padding-right: 30px;
+  color: var(--secondary-color);
 }
 
 @media (max-width: 576px) {

@@ -1,9 +1,9 @@
 :root {
-  --background-color: #9e7777;
+  --background-color: #cdd3c2;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --primary-color: #6f4c5b;
-  --secondary-color: #deba9d;
+  --primary-color: #d89279;
+  --secondary-color: #d89279;
 }
 
 body {
@@ -66,12 +66,6 @@ a {
   text-decoration: none;
 }
 
-.body-container {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1500px;
-}
-
 nav {
   padding: 15px 0;
 }
@@ -99,6 +93,12 @@ nav a:hover,
 nav li.active a {
   color: var(--background-color);
   font-weight: bold;
+}
+
+.body-container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1500px;
 }
 
 .logo {
@@ -209,6 +209,13 @@ nav li.active a {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  border: 1px solid var(--background-color);
+  color: var(--background-color);
+  font-weight: bold;
+  transition: all 150ms ease-in-out;
 }
 
 .weatherapp-img {

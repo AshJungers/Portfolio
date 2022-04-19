@@ -230,6 +230,7 @@ footer .social-links a {
 .contact-container {
   background-color: var(--background-color);
   padding: 30px;
+  border-radius: 15px;
 }
 
 .email-link {

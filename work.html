@@ -32,41 +32,22 @@
   </head>
   <body>
     <div class="body-container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Ashley Jungers</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about.html"
-                  >About</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="work.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html#heading-section-skills"
-                  >Skills</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+      <nav class="d-flex justify-content-between">
+        <img src="images/logo3.png" class="logo" alt="" />
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li class="active">
+            <a href="work.html">Projects</a>
+          </li>
+          <li>
+            <a href="#">Resume</a>
+          </li>
+        </ul>
       </nav>
 
       <div class="projects-container mt-5">
@@ -130,20 +111,23 @@
           </div>
         </div>
       </div>
-      <div class="contact-container mb-5">
-        <h2 class="heading-section-contact mb-3">Work Inquiry</h2>
-        <p class="fw-bold">
+
+      <div class="contact-container text-center mt-5">
+        <p class="get-in-touch fs-4">
           Get in touch if you have any questions or if you'd like to discuss
           future projects.
         </p>
-        <a href="mailto:ash.jungers01@gmail.com"
-          ><i class="fa-solid fa-envelope fa-xl email-icon mb-3"></i
-        ></a>
+        <a href="mailto:ash.jungers01@gmail.com" class="email-link"
+          >ash.jungers@gmail.com</a
+        >
+      </div>
+
+      <div class="social-links text-center mt-3 mb-3">
         <a href="https://www.linkedin.com/in/ashleyjungers/" target="_blank"
-          ><i class="fa-brands fa-linkedin fa-xl linkedin-icon mt-3"></i
+          ><i class="fa-brands fa-linkedin linkedin-icon"></i
         ></a>
         <a href="https://github.com/AshJungers" target="_blank"
-          ><i class="fa-brands fa-github fa-xl github-icon"></i
+          ><i class="fa-brands fa-github github-icon"></i
         ></a>
       </div>
     </div>

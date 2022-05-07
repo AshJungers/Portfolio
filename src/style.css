@@ -169,6 +169,7 @@ nav li.active a {
 
 .profile-pic {
   display: block;
+  border-radius: 1.5%;
   height: auto;
   margin: auto;
   margin-bottom: 10px;

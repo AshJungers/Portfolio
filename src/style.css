@@ -95,6 +95,10 @@ nav li.active a {
   font-weight: bold;
 }
 
+p.about-me-content {
+  font-size: 14px;
+}
+
 .body-container {
   margin-right: auto;
   margin-left: auto;

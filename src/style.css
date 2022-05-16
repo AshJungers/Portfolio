@@ -148,10 +148,6 @@ nav li.active a {
   text-align: center;
 }
 
-.about-me-content {
-  margin-top: 50px;
-}
-
 .about-link {
   color: var(--primary-color);
   font-weight: bold;

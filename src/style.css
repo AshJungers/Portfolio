@@ -304,6 +304,10 @@ footer .social-links a {
     text-align: center;
   }
 
+  p.project-information {
+    text-align: center;
+  }
+
   p,
   h2.intro,
   .signature {
@@ -349,7 +353,9 @@ footer .social-links a {
   }
 
   .flyfishing-img,
-  .weatherapp-img {
+  .weatherapp-img,
+  .portfolio-img,
+  .reactapp-img {
     display: block;
     margin: 0 auto;
   }

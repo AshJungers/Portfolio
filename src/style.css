@@ -96,7 +96,9 @@ nav li.active a {
 }
 
 p.about-me-content {
-  font-size: 14px;
+  font-size: 18px;
+  padding: 50px;
+  border-color: #cdd3c2;
 }
 
 .body-container {

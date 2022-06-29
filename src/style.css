@@ -10,11 +10,7 @@ body {
   margin: auto;
 }
 
-img.main-picture {
-  object-fit: cover;
-  border-radius: 10px !important;
-  transform: rotate(-4deg);
-}
+/* Hero & Top Container - index page */
 
 h1,
 h3 {
@@ -52,6 +48,7 @@ h3.project-title {
   text-align: start;
 }
 
+/* About Me Page */
 h3.about-me-header {
   margin: 40px auto;
 }
@@ -61,6 +58,14 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+
+p.about-me-content {
+  font-size: 18px;
+  padding: 50px;
+  border-color: #cdd3c2;
+}
+
+/* nav bar*/
 
 a {
   text-decoration: none;
@@ -93,12 +98,6 @@ nav a:hover,
 nav li.active a {
   color: var(--background-color);
   font-weight: bold;
-}
-
-p.about-me-content {
-  font-size: 18px;
-  padding: 50px;
-  border-color: #cdd3c2;
 }
 
 .body-container {

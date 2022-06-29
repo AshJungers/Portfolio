@@ -60,6 +60,8 @@ p {
 }
 
 p.about-me-content {
+  background-color: var(--background-color);
+  border-radius: 4px;
   font-size: 18px;
   padding: 50px;
   border-color: #cdd3c2;

@@ -195,6 +195,8 @@ nav li.active a {
   margin: auto;
 }
 
+/* Skills */
+
 .skills {
   margin-bottom: 100px;
 }
@@ -211,13 +213,6 @@ nav li.active a {
   padding: 25px 0;
 }
 
-.flyfishing-img {
-  width: 400px;
-  height: auto;
-  display: flex;
-  align-items: center;
-}
-
 .btn-branding {
   border-radius: 4px;
   border: 1px solid var(--primary-color);
@@ -231,6 +226,15 @@ nav li.active a {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
   font-weight: bold;
+}
+
+/* Images */
+
+.flyfishing-img {
+  width: 400px;
+  height: auto;
+  display: flex;
+  align-items: center;
 }
 
 .weatherapp-img {
@@ -272,6 +276,8 @@ footer .social-links a {
   padding: 30px;
   border-radius: 15px;
 }
+
+/* Footer */
 
 .email-link {
   color: var(--secondary-color);

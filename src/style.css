@@ -228,6 +228,10 @@ nav li.active a {
   font-weight: bold;
 }
 
+.project-section {
+  margin-bottom: 60px;
+}
+
 /* Images */
 
 .flyfishing-img {
@@ -262,6 +266,8 @@ nav li.active a {
   width: 450px;
 }
 
+/* Footer */
+
 footer {
   margin: 60px 0 30px;
 }
@@ -276,8 +282,6 @@ footer .social-links a {
   padding: 30px;
   border-radius: 15px;
 }
-
-/* Footer */
 
 .email-link {
   color: var(--secondary-color);
